@@ -23,4 +23,13 @@ public class LotteryTicketClass {
         System.out.println("\n");
     }
 
+
+    public void updateNumbersOfLotteryTicket() {
+        for(int i = 0; i < 6; i++) {
+            lotteryTicket.set(i,randomGenerator.getRandomInt(0,10));
+        }
+        System.out.println("Updated");
+        printNumberOfLotteryTicket();
+    }
+
 }
