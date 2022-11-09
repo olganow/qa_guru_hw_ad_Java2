@@ -32,4 +32,12 @@ public class LotteryTicketClass {
         printNumberOfLotteryTicket();
     }
 
+    public void removeOneNumber() {
+        int randomIndex = randomGenerator.getRandomInt(0,lotteryTicket.size()-1);
+        System.out.println("Remove number " + lotteryTicket.get(randomIndex) + " with index " +
+                randomIndex + " from lottery ticket.");
+        lotteryTicket.remove(randomIndex);
+        printNumberOfLotteryTicket();
+    }
+
 }
