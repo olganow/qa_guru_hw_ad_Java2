@@ -40,4 +40,23 @@ public class LotteryTicketClass {
         printNumberOfLotteryTicket();
     }
 
+    public void addNewNumber() {
+        int randomNumber = randomGenerator.getRandomInt(0,10);
+        lotteryTicket.add(randomNumber);
+        System.out.println("Add number " + randomNumber + " in lottery ticket. ");
+        printNumberOfLotteryTicket();
+    }
+
+    public void searchNumberByIndex() {
+        int randomIndex = randomGenerator.getRandomInt(0,lotteryTicket.size()-1);
+        int searchingNumber = lotteryTicket.get(randomIndex);
+        System.out.println("Searching number by index " + randomIndex + " is " + searchingNumber + "\n");
+    }
+
+    public void doesTheLotteryTicketContainNumber() {
+        int randomNumber = randomGenerator.getRandomInt(0,10);
+        System.out.println("Does the list contain number: " + randomNumber + "?");
+        System.out.println(lotteryTicket.contains(randomNumber));
+    }
+
 }
