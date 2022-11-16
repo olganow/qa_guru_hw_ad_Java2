@@ -1,4 +1,4 @@
-package ru.ya.olganow;
+package ru.ya.olganow.Map;
 
 public class Contact {
     String phone;

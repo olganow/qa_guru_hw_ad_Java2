@@ -1,5 +1,7 @@
 package ru.ya.olganow;
 
+import ru.ya.olganow.Map.Contact;
+
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
