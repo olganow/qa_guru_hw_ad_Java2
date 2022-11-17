@@ -1,8 +1,11 @@
 package ru.ya.olganow.List;
 
+import utils.FakerGenerator;
+
 import java.util.List;
 
 public class Course {
+    FakerGenerator fakerGenerator = new FakerGenerator();
     String courseName;
     int hours;
     int price;
@@ -19,4 +22,5 @@ public class Course {
     public void setTeacher(List<String> teacher) {
         this.teacher = teacher;
     }
+
 }
