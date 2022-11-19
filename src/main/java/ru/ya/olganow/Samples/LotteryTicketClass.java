@@ -1,5 +1,5 @@
-package ru.ya.olganow;
-
+package ru.ya.olganow.Samples;
+//author https://github.com/nastasia-ch/
 import utils.RandomGenerator;
 
 import java.util.List;
